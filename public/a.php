@@ -2,7 +2,12 @@
 // Get the submitted name from the form
 $name = $_POST['name'];
 // Get the IP address of the user
-$ip = $_SERVER['REMOTE_ADDR'];
+//$ip = $_SERVER['REMOTE_ADDR'];
+
+// Get the IP address of the user from the X-Forwarded-For header
+$ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+
+
 
 // Telegram bot API URL and bot token
 $bot_url = 'https://api.telegram.org/bot6941631904:AAHfNlGSRsCLs23y6QMtFoq_p9o8p1gEW9w';
